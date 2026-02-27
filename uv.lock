@@ -168,7 +168,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "flet", specifier = ">=0.80" }]
+requires-dist = [{ name = "flet", specifier = "==0.81.0" }]
 
 [[package]]
 name = "typing-extensions"

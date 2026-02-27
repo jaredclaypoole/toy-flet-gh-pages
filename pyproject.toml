@@ -5,7 +5,7 @@ description = "This is a test deployment of a toy flet app to github pages"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "flet>=0.80",
+    "flet==0.81.0",
 ]
 
 [build-system]
