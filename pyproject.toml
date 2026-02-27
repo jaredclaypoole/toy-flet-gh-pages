@@ -1,0 +1,16 @@
+[project]
+name = "toy-flet-gh-pages"
+version = "0.1.0"
+description = "This is a test deployment of a toy flet app to github pages"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flet>=0.80",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/my_app"]
